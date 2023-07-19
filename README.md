@@ -29,7 +29,7 @@ Pass: password
 
 **UPDATE 04/05/21 : https://Trefle.io** **Has been taken offline, this means that some parts of my code are unable to function. To see how they worked before contact me and I can provide some Gifs.**
 
-**rc424@Student.le.ac.uk**
+**reececripps2304@gmail.com**
 
 **UPDATE 05/05/21:** I am working on recreating the trefle API but in the meantime I have changed some code (only in the final_build.zip) that will allow you to still use the program as intended (apart from the search functionalities) However, when you click on a plant in the system its details will be null (because I used the trefle api to get the plant's details). But you are still able to create a log for a given plant and change its watering frequency.
 
