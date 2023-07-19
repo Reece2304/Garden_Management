@@ -1,0 +1,260 @@
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+.text {
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 20px;
+  line-height: 1.5;
+  color: Black;
+}
+
+
+.container_login {
+  width: 100%;  
+  min-height: 100vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:2%;
+  background-image: url("../images/Login-background.png");
+  background-color: #cccccc;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.container2_login {
+	border: solid black 2px;
+  width: 960px;
+  background: #fff;
+  border-radius: 10px;
+  margin-right:auto;
+  margin-left:auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 130px 33px 95px;
+}
+
+.login_Background {
+  width: 400px;
+  float: left;
+}
+
+.login_Background img {
+	display:block;
+margin-top: 20%;
+  max-width: 100%;
+}
+
+.Form {
+  width: 50%;
+  
+}
+
+.details{
+    float: left;
+    display: block;
+    margin-right: 2%;
+    margin-top: 16%;
+    font-size: 20px;
+	
+}
+
+.accountD{
+	margin-bottom: 50%;
+	
+}
+
+.username{
+	 display:table-cell;
+	  white-space: nowrap;
+	   overflow: hidden;
+	    text-overflow: ellipsis;
+	     max-width: 6ch;
+	
+}
+
+.username:hover{
+	overflow: visible;
+	
+}
+
+.Form_title {
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 40px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 54px;
+
+}
+
+.container_input {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+
+.input {
+  font-family: Arial;
+  font-size: 25px;
+  line-height: 1.5;
+  display: block;
+  width: 100%;
+  background: #e6e6e6;
+  height: 50px;
+  border-radius: 25px;
+  padding: 0 30px 0 68px;
+}
+
+.animate_input {
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0px 0px 0px 0px;
+  color: green;
+}
+
+.input:focus + .animate_input {
+  -webkit-animation: anim-shadow 0.5s ease-in-out forwards;
+  animation: anim-shadow 0.5s ease-in-out forwards;
+}
+
+@-webkit-keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 70px 25px;
+    opacity: 0;
+  }
+}
+
+@keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 70px 25px;
+    opacity: 0;
+  }
+}
+
+.input_icon {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  border-radius: 25px;
+  bottom: 0;
+  left: 0;
+  margin-right:2%;
+  width: 100%;
+  height: 100%;
+  padding-left: 30px;
+  pointer-events: none;
+  color: green;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input:focus + .animate_input + .input_icon {
+  color: green;
+  padding-left: 28px;
+}
+
+.container_button {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+ #button
+{
+	  border: 2px solid black;
+	
+}
+
+.button {
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: green;
+  color: white;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 25px;
+  margin-bottom: 10px;
+  transition-duration: 0.7s;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid black;
+
+}
+
+.button:hover{
+	font-size: 140%;
+}
+
+.message{
+	
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  resize: both;
+  min-height: 40px;
+  border: 2px solid black;
+  height:20vh;
+  background: #e6e6e6;
+  border-radius: 25px;
+  text-align:center;
+}
+
+.text-center {text-align: center;}
+
+
+.error {
+	margin-bottom: 5%;
+	color: red;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.confirmation
+{
+  font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+  font-size: 40px;
+  color: Green;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 54px;
+	
+}
+

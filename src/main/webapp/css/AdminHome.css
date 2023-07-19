@@ -1,0 +1,102 @@
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: white;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.Form_title {
+  font-family: Arial;
+  font-size: 40px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 54px;
+
+}
+.container_login {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-image: url("../images/Login-background.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  
+}
+
+.container2_login {
+  width: 960px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 130px 33px 95px;
+}
+
+.error {
+	color: red;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.button {
+  background-color: #2dc110;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  float: right;
+  text-transform: uppercase;
+  border: solid black 2px;
+}
+
+.button:hover{
+	background-color: rgba(45,193,16, 0.6);
+	tansition: 0.5s;
+}
+
+#removedButton
+{
+	float: left;
+	
+}
+
+.link
+{
+  background-color: #2dc110;
+  border-radius: 20px;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border: solid black 2px;
+	
+}
+
+.link:hover{
+	background-color: rgba(45,193,16, 0.6);
+	tansition: 0.5s;
+}

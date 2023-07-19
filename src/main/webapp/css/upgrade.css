@@ -1,0 +1,52 @@
+
+.checkout
+{
+	display:grid;
+	row-gap: 100px;
+	width:100%;
+}
+
+.basket{
+	
+	font-size:20px;
+}
+
+.baskethead{
+	font-size:25px;
+	border-bottom: 2px solid black;
+}
+
+.basketbottom{
+		font-size:25px;
+	border-top: 2px solid black;
+	
+}
+
+.basketcontent
+{
+		background-position: left center;
+	background-size: 30px;
+	font-size: 22px;
+    margin: 0;
+    background-image: url("../images/bullet.png");
+	padding: 20px 0 20px 50px;
+	list-style: none;
+	background-repeat: no-repeat;
+
+	font-weight:450;
+	
+}
+
+.container2_login {
+	border: solid black 2px;
+  width: 1060px;
+  background: #fff;
+  border-radius: 10px;
+  margin-right:auto;
+  margin-left:auto;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 130px 33px 95px;
+}
